@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/components/Index'
-import Search from '@/components/Search'
-import Detail from '@/components/Detail'
+import Index from '@/views/Index'
+import Search from '@/views/Search'
+import Detail from '@/views/Detail'
 
 Vue.use(Router)
 
