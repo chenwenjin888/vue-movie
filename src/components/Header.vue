@@ -27,6 +27,7 @@
           alert('请输入搜索内容');
           return;
         }
+        // 搜索页面跳转
         this.$router.push({
           path: '/search/' + this.searchKey,
         })

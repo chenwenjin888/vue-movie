@@ -6,8 +6,8 @@ import App from './App'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.css'
 
-Vue.config.productionTip = false
-Vue.prototype.$http = axios
+// 请求绑定Vue原型属性上面，方便使用
+Vue.prototype.$http = axios;
 
 new Vue({
   el: '#app',

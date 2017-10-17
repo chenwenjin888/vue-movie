@@ -9,7 +9,7 @@
   export default{
     data(){
       return {
-        movieType: 'search'
+        movieType: 'search'// 搜索类型
       }
     },
     watch: {

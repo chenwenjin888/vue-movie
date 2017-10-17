@@ -54,17 +54,14 @@
 </script>
 
 <style scoped>
-
   img {
     width: 100%;
     height: 230px;
     vertical-align: middle;
   }
-
   .row > div {
     margin-bottom: 20px;
   }
-
   .title {
     height: 20px;
     overflow: hidden;

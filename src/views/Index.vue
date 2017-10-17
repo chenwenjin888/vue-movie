@@ -9,7 +9,7 @@
   export default {
     data(){
       return {
-        movieType: 'in_theaters'
+        movieType: 'in_theaters'// 正在热映类型
       }
     },
     components: {
