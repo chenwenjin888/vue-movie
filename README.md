@@ -537,8 +537,7 @@ module.exports = {
 至此，我们的一个简单的豆瓣电影实例已经完成，踩了很多坑，但是也学到了很多东西，此处省略N个字的心得...
 
 
->下一步的学习目标是使用状态管理vuex以及Node.js 来对此项目进行优化，敬请期待......
+>[源码地址：Vue2.0 豆瓣电影项目实例](https://github.com/chenwenjin888/vue-movie) ，如果觉得有帮助，可**star**一下啊
 
-
-## 源码地址
-https://github.com/chenwenjin888/vue-movie
+## 进阶篇
+好了，Vue会用了，不会Vuex怎么行呢。下一目标[Vuex 豆瓣电影项目实战](https://github.com/chenwenjin888/vuex-movie)
