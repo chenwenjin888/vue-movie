@@ -21,7 +21,7 @@ cnpm i -g vue-cli
 ```
 vue init webpack vue-movie
 ```
-![image](http://note.youdao.com/yws/public/resource/b9324d1a09138ab84e0bbe979766a420/88A5CC7022134EF6AFC2A96672FFF0D7)
+![image](http://upload-images.jianshu.io/upload_images/5019151-95692d39bcb783b1?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 安装成功后根据提示进入项目中
 
@@ -39,13 +39,13 @@ cnpm i
 cnpm run dev
 ```
 我们可以在浏览器中输入：localhost:8080进入下面界面就代表我们第一步环境搭建已经完成。给大家提供一个网址，里面详细介绍了vue-cli的webpack模板项目配置文件分析：http://blog.csdn.net/hongchh/article/details/55113751
-![image](http://note.youdao.com/yws/public/resource/b9324d1a09138ab84e0bbe979766a420/C3A6C68D758040E4A30EF74318B0545A)
+![image](http://upload-images.jianshu.io/upload_images/5019151-6a3cdf8b57b3d08e?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 效果图
 先感受这三个页面的效果图，不好也不允许吐槽，O(∩_∩)O哈哈~
-![image](http://note.youdao.com/yws/public/resource/b9324d1a09138ab84e0bbe979766a420/3243E492DFB74266B58863950A9068CF)
-![image](http://note.youdao.com/yws/public/resource/b9324d1a09138ab84e0bbe979766a420/3C8479DE56EC4007A8706BAA8EB008DB)
-![image](http://note.youdao.com/yws/public/resource/b9324d1a09138ab84e0bbe979766a420/3843DD3BDBC24DB58FE7B9A6F0CBECC2)
+![image](http://upload-images.jianshu.io/upload_images/5019151-c8ffccb4a5ac7afe?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](http://upload-images.jianshu.io/upload_images/5019151-92e60fed9c2db6c6?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](http://upload-images.jianshu.io/upload_images/5019151-81aef29233c5c96e?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 正式开工
 首先，我们把剩下需要的组件下下来：
@@ -291,7 +291,7 @@ export default new Router({
     <div class="row">
       <div class="col-md-2 text-center" v-for="item in list" :key="item.id">
         <router-link :to="{path:'/detail/'+item.id}">
-          <img :src="item.images.large">
+          ![](item.images.large)
           <div class="title">{{item.title}}</div>
         </router-link>
       </div>
@@ -420,7 +420,7 @@ module.exports = {
     <h2>{{movie.title}}({{movie.year}})</h2>
     <div class="box">
       <div class="left">
-        <img :src="movie.images.large">
+        ![](movie.images.large)
       </div>
       <div class="main">
         <div>导演：{{getDirectors}}</div>
@@ -534,10 +534,10 @@ module.exports = {
 ```
 
 ## 总结
-至此，我们的一个简单的豆瓣电影实例已经完成，踩了很多坑，但是也学到了很多东西，此处省略N个字的心得...
+至此，我们一个简单的豆瓣电影实例已经完成，踩了很多坑，但是也学到了很多东西，此处省略N个字的心得...
 
 
 >[源码地址：Vue2.0 豆瓣电影项目实例](https://github.com/chenwenjin888/vue-movie) ，如果觉得有帮助，可**star**一下啊
 
 ## 进阶篇
-好了，Vue会用了，不会Vuex怎么行呢。下一目标[Vuex 豆瓣电影项目实战](https://github.com/chenwenjin888/vuex-movie)
+好了，Vue会用了，不会Vuex怎么行呢。下一目标[Vuex 豆瓣电影项目实战](http://www.jianshu.com/p/b55a47bd0ed7)
